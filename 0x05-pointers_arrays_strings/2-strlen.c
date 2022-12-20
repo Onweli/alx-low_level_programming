@@ -1,14 +1,14 @@
 #include "main.h"
-
 /**
- * _strlen - returns the length of a string.
+ * _strlen - return the length of a string
+ * Owned By Bwave
  * @s: char to check
- * Return: 0
+ * Return: 0 is success
  */
 
 int _strlen(char *s)
 {
-	int a = 0; /* start the counter from 0*/
+	int a = 0;
 
 	for (; *s++;)
 		a++;
